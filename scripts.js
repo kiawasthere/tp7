@@ -56,6 +56,8 @@ function Recipe(recipeName, contributorName, imageURL, ingredientsURL, equipment
 
 BasicRecipe = new Recipe( "Basic Recipe", "Kia", "https://images.unsplash.com/photo-1485962307416-993e145b0d0d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80", "ingredients.html", "equipment.html", "directions.html");
 
+BasicRecipe = new Recipe( "Peach Crisp", "Zaire Moon", "https://images.pexels.com/photos/4397920/pexels-photo-4397920.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", "peach-ingredients.html", "peach-equipment.html", "peach-directions.html");
+
 
 window.onload = function() {
   
