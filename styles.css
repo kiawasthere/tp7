@@ -80,21 +80,6 @@ h4 {
   background-color: lightgray;
 }
 
-/* hides the columms */ 
-#row #ingredients ul,
-#row #equipment ul, 
-#row #directions ol {
-  display: none; 
-}
-
-
-#row #ingredients.tpShow ul,
-#row #equipment.tpShow ul,
-#row #directions.tpShow ol {
-  display: block;
-  
-} 
-
 
 
 
