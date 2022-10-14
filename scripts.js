@@ -58,6 +58,7 @@ BasicCrepe = new Recipe( "Basic Crepe", "Kia", "https://images.unsplash.com/phot
 
 PeachCrisp = new Recipe( "Peach Crisp", "Zaire Moon", "https://images.pexels.com/photos/4397920/pexels-photo-4397920.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", "peach-ingredients.html", "peach-equipment.html", "peach-directions.html");
 
+TwistyCookie = new Recipe( "Twisty Cookie", "Mark Fillip ", "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80", "cookie-ingredients.html", "cookie-equipment.html", "cookie-directions.html");
 
 window.onload = function() {
   
@@ -68,6 +69,9 @@ window.onload = function() {
 
   document.querySelector("#secondRecipe").onclick = function() {
       PeachCrisp.displayRecipe(); }
+
+   document.querySelector("#thirdRecipe").onclick = function() {
+      TwistyCookie.displayRecipe(); }
 
 
   
